@@ -34,3 +34,11 @@ console.log('hillo'.toUpperCase())
 Math.random()
 console.log(Math.round(Math.random()*100))
 console.log(Object.keys(s))
+
+
+console.time()
+let list:[Number]=[0]
+for (let index = 0; index < 10000000.; index++) {
+    list[index] = index;
+}
+console.timeEnd()
